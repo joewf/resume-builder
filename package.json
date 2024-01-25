@@ -1,6 +1,6 @@
 {
-  "homepage": "https://joewf.github.io/cv-application",
-  "name": "cv-application-app",
+  "homepage": "https://joewf.github.io/resume-builder",
+  "name": "resume-builder",
   "private": true,
   "version": "0.0.0",
   "type": "module",
