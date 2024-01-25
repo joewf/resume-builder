@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+.resume-template {
+    background-color: var(--secondary-bg-color);
+    width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhance section styling */
+.resume-template section {
+    margin-bottom: 1.5rem;
+}
+
+
+hr {
+    height: 0.1rem;
+    background-color: var(--hr-bg-color);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.name {
+    color: #333;
+    font-size: 2rem;
+}
+
+.header-details {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.icon {
+    color: var(--title-color);
+}
+
+
+.title {
+    color: var(--title-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+.summary-description {
+    font-size: 0.9rem;
+    word-wrap: break-word;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name,
+.company-location,
+.start-date,
+.end-date {
+    font-size: 0.9rem;
+}
+
+.job-title {
+    font-size: 0.9rem;
+    margin-top: -0.8rem;
+    margin-bottom: -1rem;
+}
+
+.job-description>* {
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+}
+
+
+.skills-container {
+    display: flex;
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+.skills-list {
+    margin-bottom: 0.1rem;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#school {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+#degree {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+#degree li {
+    margin: 0.2rem 1rem;
+
+}
+
+#location {
+    font-size: 0.9rem;
+}
+
+.job-description {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, Helvetica, sans-serif;
+}
+
+:root {
+    --primary-bg-color: rgb(240, 240, 240);
+    --secondary-bg-color: #FFFFFF;
+    --title-color: #3498db;
+    --hr-bg-color: #ddd;
+    --button-color: #24a0ed;
+}
+
+.app-body {
+    background-color: var(--primary-bg-color);
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}

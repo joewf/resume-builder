@@ -1,0 +1,206 @@
+body {
+    background-color: var(--primary-bg-color);
+}
+
+.edit-section {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 310px;
+    margin: 2rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Update colors for better contrast */
+.edit-section>* {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #333;
+}
+
+h2 {
+    padding: 15px 0;
+    /* font-size: x-large; */
+}
+
+.name {
+    color: var(--title-color);
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: medium;
+}
+
+input {
+    border-radius: 10px;
+    background-color: var(--primary-bg-color);
+    margin-bottom: 15px;
+    height: 30px;
+    width: 200px;
+    border-width: 1px;
+    border-style: inset;
+}
+
+#summary,
+#responsibilities-input {
+    margin-bottom: 15px;
+    background-color: var(--primary-bg-color);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* border-style: inset; */
+}
+
+.save-button,
+.add-button,
+.edit-button,
+.cancel-button {
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 10px;
+    padding: 0 15px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-button {
+    position: relative;
+    left: 45%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2rem;
+}
+
+#textarea-container {
+    display: flex;
+}
+
+#summary-save-button {
+    /* margin-top: 7.9rem; */
+    margin: 0;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+.cancel-button {
+    background-color: #e74c3c;
+}
+
+#education-save-button {
+    margin: 0;
+    width: 4rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+#education-add-button {
+    margin-left: 5.2rem;
+    margin-bottom: 1rem;
+}
+
+#experience-save-button {
+    margin: 0;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+#skill-save-button {
+    margin: 0;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+.add-button {
+    width: 8rem;
+    height: 2rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 span {
+    cursor: pointer;
+}
+
+/* Add hover effect to buttons */
+.save-button:hover,
+.add-button:hover,
+.edit-button:hover,
+#education-save-button:hover,
+#education-add-button:hover,
+#job-add-button:hover {
+    background-color: #2980b9;
+}
+
+.cancel-button:hover {
+    background-color: #E8001F;
+}
+
+/* Make the collapse/expand button more visually appealing */
+h2 span:hover {
+    color: #3498db;
+    transform: scale(1.2);
+}
+
+.li-delete {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+}
+
+.delete-icon {
+    cursor: pointer;
+    color: #e74c3c;
+}
+
+.edit-icon {
+    cursor: pointer;
+    color: var(--title-color);
+}
+
+.edit-delete-div>* {
+    margin-right: 8px;
+}
+
+#job-add-button {
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 15px;
+    margin-left: 0.8rem;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
